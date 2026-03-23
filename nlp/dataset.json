@@ -1,0 +1,38 @@
+[
+    {
+        "question": "What is the exam schedule?",
+        "answer": "The semester exams start on May 15th. Detailed schedule is on the college portal."
+    },
+    {
+        "question": "How do I apply for leave?",
+        "answer": "You can apply for leave through the student portal under the 'Requests' tab."
+    },
+    {
+        "question": "Where is the administrative office?",
+        "answer": "The administrative office is located in Block A, Ground Floor."
+    },
+    {
+        "question": "What are the library hours?",
+        "answer": "The library is open from 8:00 AM to 8:00 PM on weekdays and 9:00 AM to 5:00 PM on Saturdays."
+    },
+    {
+        "question": "Does the college have a guest house?",
+        "answer": "Yes, the university has a guest house facility. Please contact administration for booking."
+    },
+    {
+        "question": "What are the placements for 2025?",
+        "answer": "The placement drive for the 2025 batch has started with over 50 top companies visiting initially. Major recruiters include Amazon, Microsoft, TCS, and Accenture."
+    },
+    {
+        "question": "How many companies visit for recruitment?",
+        "answer": "Typically, over 150+ companies visit GITAM each year for recruitment, offering diverse roles across engineering, management, and other domains."
+    },
+    {
+        "question": "What is the highest package offered?",
+        "answer": "The highest package offered recently was 46.5 LPA by Amazon."
+    },
+    {
+        "question": "Who are the top recruiters?",
+        "answer": "Top recruiters include Amazon, Microsoft, Deloitte, TCS, Wipro, Infosys, Tech Mahindra, and Capgemini."
+    }
+]

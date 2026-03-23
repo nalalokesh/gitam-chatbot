@@ -1,0 +1,972 @@
+1.Name: Dr. P.V.Nageswara Rao
+Faculty Id : 1203
+Designation: Professor
+Phone: 9573486486
+Email: vpadmana@gitam.edu
+Room No: 525 - inside
+2.Name: Dr. G.Appa Rao
+Faculty Id : 1241
+Designation: Professor
+Phone: 9985097131
+Email: agidutur@gitam.edu
+Room No: 120 - inside
+3.Name: Dr. P.V.Lakshmi
+Faculty Id : 1251
+Designation: Professor
+Phone: 9440785342
+Email: vpanga@gitam.edu
+Room No: 526 - inside
+4.Name: Dr. Y.Srinivas
+Faculty Id : 1802
+Designation: Professor
+Phone: 9848225176
+Email: syarrama@gitam.edu
+Room No: 615 - inside
+5.Name: Dr. Y Radhika
+Faculty Id : 1243
+Designation: Professor
+Phone: 9985225454
+Email: ryalavar@gitam.edu
+Room No: ...
+6.Name: Dr. R Sireesha
+Faculty Id : 1245
+Designation: Professor
+Phone: 9848503365
+Email: srodda@gitam.edu
+Room No: 225 - inside
+7.Name: Dr. Ch Shanti
+Faculty Id : 1207
+Designation: Professor
+Phone: 8499983355
+Email: schiluku2@gitam.edu
+Room No: 614 - inside
+8.Name: Dr. Srinivas Prasad
+Faculty Id : 120040
+Designation: Professor
+Phone: 9437931017
+Email: sprasad@gitam.edu
+Room No: 325 - inside
+9.Name: Dr. G.Venkateswara Rao
+Faculty Id : 1842
+Designation: Professor
+Phone: 9441571553
+Email: vgurrala@gitam.edu
+Room No: 226 - inside
+10.Name: Dr. G.V.S. Raj Kumar
+Faculty Id : 1844
+Designation: Professor
+Phone: 9989888307
+Email: gganapav@gitam.edu
+Room No: 326 - inside
+11.Name: Dr. Ravi Bhramaramba
+Faculty Id : 1847
+Designation: Professor
+Phone: 9866227483
+Email: bravi@gitam.edu
+Room No: 614 - front
+12.Name: Dr. Ch. Suresh
+Faculty Id : 500241
+Designation: Professor
+Phone: 9248483328
+Email: schittin@gitam.edu
+Room No: 127
+13.Name: Dr. Manda Rama Narasingarao
+Faculty Id : 501399
+Designation: Professor
+Phone: 9014578416
+Email: rmanda@gitam.edu
+Room No: 615 - front
+14.Name: Dr. Pragnyaban Mishra
+Faculty Id : 501947
+Designation: Professor
+Phone: 8249236001
+Email: pmishra4@gitam.edu
+Room No: Cotton - 405
+15.Name: Dr. Thirupathi Rao Komati
+Faculty Id : 502007
+Designation: Professor
+Phone: 9440287259
+Email: tkomati@gitam.edu
+Room No: 326 - front
+16.Name: Dr. Prem Kumar Singh
+Faculty Id : 500856
+Designation: Professor
+Phone: 8178434296
+Email: psingh@gitam.edu
+Room No: VB-308B
+17.Name: Dr. M.Venkateswara Rao
+Faculty Id : 502436
+Designation: Professor
+Phone: 9912689879
+Email: vmandapa2@gitam.edu
+Room No: 125 - inside
+18.Name: Dr. Malla Ramakrishna Murty
+Faculty Id : 502916
+Designation: Professor
+Phone: 8341831081
+Email: rmalla2@gitam.edu
+Room No: 525 - front
+19.Name: Dr. K. Srinivasa Rao
+Faculty Id : 4118
+Designation: Associate Professor
+Phone: 9848673655
+Email: skonda@gitam.edu
+Room No: 619
+20.Name: Dr. T Sankara Rao
+Faculty Id : 1247
+Designation: Associate Professor
+Phone: 9440389664
+Email: sterli@gitam.edu
+Room No: 619
+21.Name: Dr. T. Srikanth
+Faculty Id : 4120
+Designation: Associate Professor
+Phone: 9989853653
+Email: sthota@gitam.edu
+Room No: 619
+22.Name: Dr. P N R L Chandrasekhar
+Faculty Id : 1248
+Designation: Associate Professor
+Phone: 9963349829
+Email: cpnrl@gitam.edu
+Room No: 619
+23.Name: Sri T Srinivas
+Faculty Id : 1249
+Designation: Associate Professor
+Phone: 8008119766
+Email: stadi@gitam.edu
+Room No: 621
+24.Name: Dr. T. Srinivasa Rao
+Faculty Id : 1252
+Designation: Associate Professor
+Phone: 9397051837
+Email: sthamada@gitam.edu
+Room No: 621
+25.Name: Dr. B. Bhaskara Rao
+Faculty Id : 1845
+Designation: Associate Professor
+Phone: 9441467142
+Email: bboddu@gitam.edu
+Room No: 335
+26.Name: Dr. B. J. Jaidhan
+Faculty Id : 1244
+Designation: Associate Professor
+Phone: 9949333328
+Email: jbeera@gitam.edu
+Room No: 335
+27.Name: Dr. S.V.G. Reddy
+Faculty Id : 1250
+Designation: Associate Professor
+Phone: 9963332363
+Email: vsaragad@gitam.edu
+Room No: 333
+28.Name: Dr. G. Srinivasa Rao
+Faculty Id : 1901
+Designation: Associate Professor
+Phone: 9247565839
+Email: sgidutur@gitam.edu
+Room No: 120 - front
+29.Name: Dr. P. Anuradha
+Faculty Id : 1311
+Designation: Associate Professor
+Phone: 9848897911
+Email: apadala@gitam.edu
+Room No: 230
+30.Name: Dr. P. Chandra Sekhar
+Faculty Id : 1909
+Designation: Associate Professor
+Phone: 9010555589
+Email: cpothala@gitam.edu
+Room No: 332
+31.Name: Dr. G. Lakshmeeswari
+Faculty Id : 1335
+Designation: Associate Professor & HoD-CSE
+Phone: 9640811714
+Email: lgondi@gitam.edu
+Room No: 125 - front
+32.Name: Dr. Hyma J
+Faculty Id : 500785
+Designation: Associate Professor
+Phone: 9490708388
+Email: hjanapan@gitam.edu
+Room No: 336
+33.Name: Dr. Kartragadda Sharada
+Faculty Id : 501645
+Designation: Associate Professor
+Phone: 9490109900
+Email: skatraga@gitam.edu
+Room No: 336
+34.Name: Dr. Kollati Vijaya Kumar
+Faculty Id : 501938
+Designation: Associate Professor
+Phone: 9652816071
+Email: vkollati@gitam.edu
+Room No: 537
+35.Name: Dr. Mohana Naga Vamsi Thalatam
+Faculty Id : 501961
+Designation: Associate Professor
+Phone: 9642121624
+Email: mthalata@gitam.edu
+Room No: 537
+36.Name: Dr. T. Jyothirmayi
+Faculty Id : 4125
+Designation: Associate Professor
+Phone: 9849896665
+Email: jtayi@gitam.edu
+Room No: 311
+37.Name: Dr. K. Subhadra
+Faculty Id : 1305
+Designation: Associate Professor
+Phone: 9848129318
+Email: skompell@gitam.edu
+Room No: 526 - front
+38.Name: Dr. S. Anuradha
+Faculty Id : 1308
+Designation: Associate Professor
+Phone: 7093807131
+Email: asesetti@gitam.edu
+Room No: 230
+39.Name: Dr. S. Praveen Kumar
+Faculty Id : 1904
+Designation: Associate Professor
+Phone: 9989590690
+Email: psekharm@gitam.edu
+Room No: Study Leave
+40.Name: Dr. K. Naveen Kumar
+Faculty Id : 1905
+Designation: Associate Professor & HoD-AI&DS
+Phone: 9963778239
+Email: nkuppili@gitam.edu
+Room No: 332
+41.Name: Dr. P. Sankara Rao
+Faculty Id : 1322
+Designation: Associate Professor
+Phone: 9553429928
+Email: sparasan@gitam.edu
+Room No: 537
+42.Name: Dr. Y. Jhansi
+Faculty Id : 1915
+Designation: Associate Professor
+Phone: 9866741508
+Email: jyellapu@gitam.edu
+Room No: 311
+43.Name: Dr. N. Suresh Kumar
+Faculty Id : 1922
+Designation: Associate Professor
+Phone: 9885196282
+Email: pnsk@gitam.edu
+Room No: 333
+44.Name: Dr. M. Bhavani
+Faculty Id : 1935
+Designation: Associate Professor
+Phone: 9490264011
+Email: bmadired@gitam.edu
+Room No: 311
+45.Name: Dr. B. Srinivasa Rao
+Faculty Id : 500783
+Designation: Associate Professor
+Phone: 9885006376
+Email: sbendi@gitam.edu
+Room No: 537
+46.Name: Dr. K. Yogeswara Rao
+Faculty Id : 501254
+Designation: Associate Professor
+Phone: 9963265836
+Email: ykalla@gitam.edu
+Room No: 412
+47.Name: Dr. Bagadi Ravi Kiran
+Faculty Id : 502064
+Designation: Associate Professor
+Phone: 9177621760
+Email: rbagadi@gitam.edu
+Room No: 537
+48.Name: Dr. Naina Narang
+Faculty Id : 501382
+Designation: Associate Professor
+Phone: 9315809763
+Email: nnarang@gitam.edu
+Room No: 230
+49.Name: Dr. Sangeeta Viswanadham
+Faculty Id : 502817
+Designation: Associate Professor
+Phone: 9848430171
+Email: sviswana@gitam.edu
+Room No: 230
+50.Name: Dr. Venkata Ramana Murthy Oruganti
+Faculty Id : 502872
+Designation: Associate Professor
+Phone: 8220911062
+Email: vorugant@gitam.edu
+Room No: 412
+51.Name: Dr. G. L. Aruna Kumari
+Faculty Id : 4126
+Designation: Assistant Professor
+Phone: 7382121409
+Email: agorli@gitam.edu
+Room No: 232
+52.Name: Dr. S.K. Raghu
+Faculty Id : 1304
+Designation: Assistant Professor
+Phone: 9848436100
+Email: ksreeram@gitam.edu
+Room No: 304 - 08
+53.Name: Mr. D. Veerabhadra Rao
+Faculty Id : 1903
+Designation: Assistant Professor
+Phone: 9441277654
+Email: vdamiset@gitam.edu
+Room No: 304 - 01
+54.Name: Dr. M. Venkata Ramana
+Faculty Id : 1316
+Designation: Assistant Professor
+Phone: 9390990500
+Email: vmancha@gitam.edu
+Room No: 204 - 14
+55.Name: Dr. D. Suneetha
+Faculty Id : 1307
+Designation: Assistant Professor
+Phone: 9618583299
+Email: sdwarapu@gitam.edu
+Room No: 232
+56.Name: Dr. M. Padmaja
+Faculty Id : 1309
+Designation: Assistant Professor
+Phone: 9394696905
+Email: pmadugul@gitam.edu
+Room No: 232
+57.Name: Dr. G.A. Rao
+Faculty Id : 1310
+Designation: Assistant Professor
+Phone: 9866076904
+Email: agodi@gitam.edu
+Room No: 128 - 1
+58.Name: Mrs. K. Naga Soujanya
+Faculty Id : 4135
+Designation: Assistant Professor
+Phone: 9440770003
+Email: sketha@gitam.edu
+Room No: 234 - 3
+59.Name: Dr. S. Venkata Lakshmi
+Faculty Id : 1910
+Designation: Assistant Professor
+Phone: 8985084096
+Email: lsanapal@gitam.edu
+Room No: 304 - 12
+60.Name: Dr. S. Mohan Krishna
+Faculty Id : 1911
+Designation: Assistant Professor
+Phone: 9948607634
+Email: msamantu@gitam.edu
+Room No: 334
+61.Name: Sri Ravi Kanth Satapathy
+Faculty Id : 1320
+Designation: Assistant Professor
+Phone: 9885680057
+Email: rsatapat@gitam.edu
+Room No: 334
+62.Name: Sri K. Venkateswarlu
+Faculty Id : 1321
+Designation: Assistant Professor
+Phone: 9492534181
+Email: vkondiba@gitam.edu
+Room No: 128 - 2
+63.Name: Dr. Eadha Neelima
+Faculty Id : 1324
+Designation: Assistant Professor
+Phone: 8341078290
+Email: neadha@gitam.edu
+Room No: 304 - 06
+64.Name: Dr. M. Raja Mani
+Faculty Id : 1330
+Designation: Assistant Professor
+Phone: 9491783524
+Email: rmummidi@gitam.edu
+Room No: 232
+65.Name: Sri G. Taraka Rama Rao
+Faculty Id : 1327
+Designation: Assistant Professor
+Phone: 9490622421
+Email: tgottapu@gitam.edu
+Room No: 334
+66.Name: Sri M. Jagadeesh
+Faculty Id : 1328
+Designation: Assistant Professor
+Phone: 9966001880
+Email: jmedapat@gitam.edu
+Room No: ...
+67.Name: Dr. D. Rama Krishna
+Faculty Id : 1334
+Designation: Assistant Professor
+Phone: 9848685677
+Email: rdamodar@gitam.edu
+Room No: 334
+68.Name: Dr. S. Amarnadh
+Faculty Id : 1930
+Designation: Assistant Professor
+Phone: 9885857254
+Email: asurada@gitam.edu
+Room No: 304 - 04
+69.Name: Dr. P. Naga Jyothi
+Faculty Id : 1913
+Designation: Assistant Professor
+Phone: 9866260321
+Email: npothaba@gitam.edu
+Room No: 304 - 14
+70.Name: Sri K. Raghu Ram
+Faculty Id : 1338
+Designation: Assistant Professor
+Phone: 9966359460
+Email: rkarla@gitam.edu
+Room No: 334
+71.Name: Smt. A. Sireesha
+Faculty Id : 1342
+Designation: Assistant Professor
+Phone: 8106858585
+Email: sabotula@gitam.edu
+Room No: 304 - 16
+72.Name: Mr. K. Sandeep Varma
+Faculty Id : 1936
+Designation: Assistant Professor
+Phone: 9160999777
+Email: skalidin@gitam.edu
+Room No: 624
+73.Name: Mr. G.V.S. Narayana
+Faculty Id : 1939
+Designation: Assistant Professor
+Phone: 9849351968
+Email: sgayyi@gitam.edu
+Room No: 624
+74.Name: Smt. K. Neelimasantoshi
+Faculty Id : 1348
+Designation: Assistant Professor
+Phone: 9440889453
+Email: nkoragan@gitam.edu
+Room No: 204 - 13
+75.Name: Dr. B. Soujanya
+Faculty Id : 1306
+Designation: Assistant Professor
+Phone: 9294530504
+Email: sbuddhar@gitam.edu
+Room No: 304 - 13
+76.Name: Sri B. Rajesh
+Faculty Id : 1351
+Designation: Assistant Professor
+Phone: 9490235321
+Email: rbandaru3@gitam.edu
+Room No: 334
+77.Name: Dr. A.S. Venkata Praneel
+Faculty Id : 1352
+Designation: Assistant Professor
+Phone: 9490348204
+Email: pankired@gitam.edu
+Room No: 602 - D - 17
+78.Name: Smt. P. Praveena
+Faculty Id : 1361
+Designation: Assistant Professor
+Phone: 9948283877
+Email: ppothina@gitam.edu
+Room No: 304 - 15
+79.Name: Dr. Shanmuk Srinivas A.
+Faculty Id : 1366
+Designation: Assistant Professor
+Phone: 8624012018
+Email: samiripa@gitam.edu
+Room No: 624
+80.Name: Smt. Thota Jyotsna Rani
+Faculty Id : 1364
+Designation: Assistant Professor
+Phone: 8142056667
+Email: jthota@gitam.edu
+Room No: 602 - C - 05
+81.Name: Dr. M.S.N.V. Jitendra
+Faculty Id : 1365
+Designation: Assistant Professor
+Phone: 9985282169
+Email: jmukkama@gitam.edu
+Room No: 624
+82.Name: Sri Vadlamani S V S Murthy
+Faculty Id : 120006
+Designation: Assistant Professor
+Phone: 9989720516
+Email: mvadlama@gitam.edu
+Room No: 130
+83.Name: Sri Yaswanth Amanapu
+Faculty Id : 120001
+Designation: Assistant Professor
+Phone: 9885096787
+Email: yamanapu@gitam.edu
+Room No: 131 - 01
+84.Name: Smt. Choudari Lakshmi
+Faculty Id : 120002
+Designation: Assistant Professor
+Phone: 9642817606
+Email: lchoudar@gitam.edu
+Room No: 204 - 06
+85.Name: Ms. S Malarselvi
+Faculty Id : 120007
+Designation: Assistant Professor
+Phone: 8883663465
+Email: msubramaz@gitam.edu
+Room No: 602 - C - 26
+86.Name: Dr. B. Rajakoti
+Faculty Id : 120033
+Designation: Assistant Professor
+Phone: 9494909791
+Email: rbadugu@gitam.edu
+Room No: 204 - 02
+87.Name: Ms. Pappu Mansa Devi
+Faculty Id : 120004
+Designation: Assistant Professor
+Phone: 9395161559
+Email: mpappu@gitam.edu
+Room No: 204 - 04
+88.Name: Smt. Pedada Saraswathi
+Faculty Id : 120008
+Designation: Assistant Professor
+Phone: 8500962448
+Email: spedada@gitam.edu
+Room No: 204 - 12
+89.Name: Sri Bhargav Kandala
+Faculty Id : 120013
+Designation: Assistant Professor
+Phone: 9666266694
+Email: bkandala@gitam.edu
+Room No: 128 - 3
+90.Name: Smt. Geddada Vani Jayasri
+Faculty Id : 120010
+Designation: Assistant Professor
+Phone: 9398151757
+Email: vgeddada@gitam.edu
+Room No: 235 - 2
+91.Name: Smt. Namballa Madhuri
+Faculty Id : 120011
+Designation: Assistant Professor
+Phone: 8886160866
+Email: mnamball@gitam.edu
+Room No: 204 - 15
+92.Name: Smt. P. Swarna Latha
+Faculty Id : 120012
+Designation: Assistant Professor
+Phone: 7893210891
+Email: sprathip2@gitam.edu
+Room No: 204 - 07
+93.Name: Smt. Pusarla Sindhu
+Faculty Id : 120019
+Designation: Assistant Professor
+Phone: 9490262342
+Email: spusarla@gitam.edu
+Room No: 602 - D - 08
+94.Name: Smt. M. Vijaya
+Faculty Id : 120018
+Designation: Assistant Professor
+Phone: 9966546092
+Email: vmuralla@gitam.edu
+Room No: 304 - 17
+95.Name: Smt. P. Rama Devi
+Faculty Id : 120021
+Designation: Assistant Professor
+Phone: 9494139027
+Email: rponnaga@gitam.edu
+Room No: 234 - 1
+96.Name: Sri B. Suraj Aravind
+Faculty Id : 120035
+Designation: Assistant Professor
+Phone: 9849510226
+Email: sbollapr@gitam.edu
+Room No: Civil 402
+97.Name: Dr. L Srinivasa Chakravarthy
+Faculty Id : 120039
+Designation: Assistant Professor
+Phone: 9866656855
+Email: slade@gitam.edu
+Room No: 304 - 05
+98.Name: Dr. Mandava Kranthi Kiran
+Faculty Id : 500621
+Designation: Assistant Professor
+Phone: 9666917172
+Email: kmandava@gitam.edu
+Room No: 304 - 07
+99.Name: Dr. Angara S V Jayasri
+Faculty Id : 501101
+Designation: Assistant Professor
+Phone: 8179939416
+Email: jangara@gitam.edu
+Room No: 304 - 11
+100.Name: Smt. B. Sridevi
+Faculty Id : 501168
+Designation: Assistant Professor
+Phone: 8500194685
+Email: sbanavat@gitam.edu
+Room No: 235 - 1
+101.Name: Sri Chalamalasetty Sai Pratheek
+Faculty Id : 501169
+Designation: Assistant Professor
+Phone: 9581141147
+Email: schalama@gitam.edu
+Room No: 204 - 01
+102.Name: Smt. M. Bangaru Lakshmi
+Faculty Id : 501172
+Designation: Assistant Professor
+Phone: 7702656330
+Email: lmahanth@gitam.edu
+Room No: 602 - D - 05
+103.Name: Dr. Sapna Jha
+Faculty Id : 501237
+Designation: Assistant Professor
+Phone: 7049946401
+Email: sjha@gitam.edu
+Room No: 235 - 3
+104.Name: Dr. Karu Prasada Rao
+Faculty Id : 501419
+Designation: Assistant Professor
+Phone: 9849161057
+Email: pkaru@gitam.edu
+Room No: 334
+105.Name: Dr. Gurpreet Singh Chhabra
+Faculty Id : 501493
+Designation: Assistant Professor
+Phone: 9131278275
+Email: gchhabra@gitam.edu
+Room No: 204 - 09
+106.Name: Dr. NV Rajareddy Goluguri
+Faculty Id : 501529
+Designation: Assistant Professor
+Phone: 8977724666
+Email: ngolugur@gitam.edu
+Room No: Study Leave
+107.Name: Dr. Soujanya Duvvi
+Faculty Id : 501541
+Designation: Assistant Professor
+Phone: 8142877477
+Email: sduvvi3@gitam.edu
+Room No: 234 - 2
+108.Name: Dr. Yasoda Devi Gondi
+Faculty Id : 501203
+Designation: Assistant Professor
+Phone: 9490744216
+Email: ygondi@gitam.edu
+Room No: 204 - 05
+109.Name: Sri Ranajit Senko
+Faculty Id : 501556
+Designation: Assistant Professor
+Phone: 9864748298
+Email: rsenko@gitam.edu
+Room No: 304 - 09
+110.Name: Dr. Suneetha Merugula
+Faculty Id : 501566
+Designation: Assistant Professor
+Phone: 9491808165
+Email: smerugul@gitam.edu
+Room No: 602 - C - 13
+111.Name: Dr. K. Nitalaksheshwara Rao
+Faculty Id : 501624
+Designation: Assistant Professor
+Phone: 9912724859
+Email: nkolukul@gitam.edu
+Room No: 130
+112.Name: Dr. Medara Rambabu
+Faculty Id : 501677
+Designation: Assistant Professor
+Phone: 9848488338
+Email: rmedara@gitam.edu
+Room No: 304 - 02
+113.Name: Dr. Mrudula Owk
+Faculty Id : 501678
+Designation: Assistant Professor
+Phone: 7207440006
+Email: mowk@gitam.edu
+Room No: 602 - D - 02
+114.Name: Dr. Deena Hijam
+Faculty Id : 600516
+Designation: Assistant Professor
+Phone: 9678990503
+Email: dhijam@gitam.edu
+Room No: 602 - C - 21
+115.Name: Dr. Mahendra Prasad
+Faculty Id : 501731
+Designation: Assistant Professor
+Phone: 8969130379
+Email: mprasad@gitam.edu
+Room No: 602 - D - 21
+116.Name: Dr. Manjula Poojari
+Faculty Id : 501736
+Designation: Assistant Professor
+Phone: 9490707850
+Email: mpoojary@gitam.edu
+Room No: 602 - C - 22
+117.Name: Dr. Kameswara Rao Buragapu
+Faculty Id : 501767
+Designation: Assistant Professor
+Phone: 9391040373
+Email: kburagap@gitam.edu
+Room No: 304 - 10
+118.Name: Dr. N V R Swarup Kumar
+Faculty Id : 501869
+Designation: Assistant Professor
+Phone: 9246780009
+Email: sjavvadi2@gitam.edu
+Room No: 304 - 03
+119.Name: Dr. Rita Roy
+Faculty Id : 501991
+Designation: Assistant Professor
+Phone: 9493004089
+Email: rroy2@gitam.edu
+Room No: 602 - D - 07
+120.Name: Dr. Sheik Khadar Ahmad Mnoj
+Faculty Id : 502017
+Designation: Assistant Professor
+Phone: 8886854522
+Email: ksheik@gitam.edu
+Room No: 204 - 11
+121.Name: Dr. Vikram Dhiman
+Faculty Id : 502020
+Designation: Assistant Professor
+Phone: 8283877786
+Email: vdhiman@gitam.edu
+Room No: 204 - 10
+122.Name: Dr. Suresh Kumar Pemmada
+Faculty Id : 502021
+Designation: Assistant Professor
+Phone: 9885935383
+Email: spemmada@gitam.edu
+Room No: 204 - 03
+123.Name: Dr. Prajna Paramita Pradhan
+Faculty Id : 502037
+Designation: Assistant Professor
+Phone: 9439696653
+Email: ppradhan@gitam.edu
+Room No: 602 - C - 24
+124.Name: Dr. Prasad Kaviti
+Faculty Id : 502040
+Designation: Assistant Professor
+Phone: 7842898485
+Email: pkaviti@gitam.edu
+Room No: VB-416
+125.Name: Dr. Smurti Rekha Das
+Faculty Id : 502044
+Designation: Assistant Professor
+Phone: 9437182756
+Email: sdas5@gitam.edu
+Room No: 602 - D - 06
+126.Name: Dr. Jayavani Vankara
+Faculty Id : 502054
+Designation: Assistant Professor
+Phone: 9704485543
+Email: jvankara2@gitam.edu
+Room No: 234 - 4
+127.Name: Dr. Eali Stephen Neal Joshua
+Faculty Id : 502056
+Designation: Assistant Professor
+Phone: 9985075834
+Email: seali@gitam.edu
+Room No: VB-416
+128.Name: Dr. Muddada Murali Krishna
+Faculty Id : 502085
+Designation: Assistant Professor
+Phone: 7799967774
+Email: mmuddada@gitam.edu
+Room No: Cotton - 303
+129.Name: Dr. Sekharamanahanti S Nandini
+Faculty Id : 502089
+Designation: Assistant Professor
+Phone: 9703537105
+Email: ssekhara@gitam.edu
+Room No: 602 - C - 15
+130.Name: Sri Gorli Ravi
+Faculty Id : 502101
+Designation: Assistant Professor
+Phone: 8790224666
+Email: rgorli@gitam.edu
+Room No: Cotton - 303
+131.Name: Sri P. Sasibhushana Rao
+Faculty Id : 502114
+Designation: Assistant Professor
+Phone: 9550446625
+Email: spappu@gitam.edu
+Room No: Cotton - 303
+132.Name: Dr. Chukka Demudu Naidu
+Faculty Id : 502136
+Designation: Assistant Professor
+Phone: 9849215023
+Email: dchukka@gitam.edu
+Room No: VB-416
+133.Name: Dr. Nagul Shaik
+Faculty Id : 502247
+Designation: Assistant Professor
+Phone: 9666724212
+Email: nshaik3@gitam.edu
+Room No: 204 - 16
+134.Name: Sri Milan Kumar Dholey
+Faculty Id : 502264
+Designation: Assistant Professor
+Phone: 8902159010
+Email: mdholey@gitam.edu
+Room No: 130
+135.Name: Dr. Sreekanth Puli
+Faculty Id : 502273
+Designation: Assistant Professor
+Phone: 9959591880
+Email: spuli@gitam.edu
+Room No: 602 - D - 26
+136.Name: Dr. Ashutosh Bhoi
+Faculty Id : 502314
+Designation: Assistant Professor
+Phone: 9668983393
+Email: abhoi@gitam.edu
+Room No: Cotton - 303
+137.Name: Dr. Himadri Bhusan Girija Sankar Bhuyan
+Faculty Id : 502315
+Designation: Assistant Professor
+Phone: 9861242805
+Email: hbhuyan@gitam.edu
+Room No: Cotton - 303
+138.Name: Dr. Penumatsa Hima Keerthi
+Faculty Id : 502318
+Designation: Assistant Professor
+Phone: 9963463422
+Email: hpenumat@gitam.edu
+Room No: 602 - C - 23
+139.Name: Dr. Vijaya Bharathi Manjeti
+Faculty Id : 502355
+Designation: Assistant Professor
+Phone: 8897987132
+Email: vmanjeti@gitam.edu
+Room No: 602 - D - 04
+140.Name: Dr. Manohar Manikanta Pattisapu
+Faculty Id : 502323
+Designation: Assistant Professor
+Phone: 9441057944
+Email: mpattisa@gitam.edu
+Room No: VB-309
+141.Name: Dr. Satyabrata Dash
+Faculty Id : 502354
+Designation: Assistant Professor
+Phone: 9937149767
+Email: sdash@gitam.edu
+Room No: 204 - 08
+142.Name: Dr. K. Chinna Rao
+Faculty Id : 502412
+Designation: Assistant Professor
+Phone: 9486805237
+Email: ckurangi@gitam.edu
+Room No: 602 - D - 11
+143.Name: Dr. K. Venkateswara Rao
+Faculty Id : 502424
+Designation: Assistant Professor
+Phone: 9573582032
+Email: vkuna@gitam.edu
+Room No: Cotton - 303
+144.Name: Dr. Ambeshwar Kumar
+Faculty Id : 502427
+Designation: Assistant Professor
+Phone: 6383563742
+Email: akumar13@gitam.edu
+Room No: VB-309
+145.Name: Smt. A. Sravani
+Faculty Id : 502546
+Designation: Assistant Professor
+Phone: 9533008706
+Email: sandavar@gitam.edu
+Room No: 602 - C - 14
+146.Name: Smt. G. Santhoshi Kumari
+Faculty Id : 502547
+Designation: Assistant Professor
+Phone: 9494859390
+Email: sgantla@gitam.edu
+Room No: 602 - C - 12
+147.Name: Dr. Chandrakanta Mahanty
+Faculty Id : 502572
+Designation: Assistant Professor
+Phone: 8093488380
+Email: cmahanty@gitam.edu
+Room No: 602 - C - 07
+148.Name: Dr. Chandrika Dadhirao
+Faculty Id : 502582
+Designation: Assistant Professor
+Phone: 8374932690
+Email: cdadhira@gitam.edu
+Room No: 602 - C - 20
+149.Name: Dr. Simhadri Madhuri
+Faculty Id : 502701
+Designation: Assistant Professor
+Phone: 8121443146
+Email: msimhadr@gitam.edu
+Room No: 602 - D - 01
+150.Name: Dr. Naresh Kumar K E
+Faculty Id : 502717
+Designation: Assistant Professor
+Phone: 9966392900
+Email: nkatamar@gitam.edu
+Room No: Cotton - 303
+151.Name: Dr. Anupama Angadi
+Faculty Id : 502726
+Designation: Assistant Professor
+Phone: 9966850533
+Email: aangadi@gitam.edu
+Room No: 602 - D - 15
+152.Name: Dr. Bhawani Sankar Panigrahi
+Faculty Id : 502764
+Designation: Assistant Professor
+Phone: 7008295959
+Email: bpanigra@gmail.com
+Room No: 602 - C - 06
+153.Name: Sri Hemanth Kumar Vasireddi
+Faculty Id : 502826
+Designation: Assistant Professor
+Phone: 9703939495
+Email: hvasired@gitam.edu
+Room No: 602 - D - 19
+154.Name: Dr. Riju Bhattacharya
+Faculty Id : 502843
+Designation: Assistant Professor
+Phone: 8839763757
+Email: rbhattac2@gitam.edu
+Room No: 602 - D - 23
+155.Name: Dr. Ravi Teja Gedela
+Faculty Id : 502853
+Designation: Assistant Professor
+Phone: 9494164647
+Email: rgedela@gitam.edu
+Room No: Cotton - 303
+156.Name: Dr. Venkata Rao Rampay
+Faculty Id : 502855
+Designation: Assistant Professor
+Phone: 9640129737
+Email: vrampay@gitam.edu
+Room No: 602 - D - 14
+157.Name: Dr. Zubair Ahmad Lone
+Faculty Id : 502892
+Designation: Assistant Professor
+Phone: 7006725188
+Email: zlone@gitam.edu
+Room No: Cotton - 303
+158.Name: Dasari Siva Krishna
+Faculty Id : 502915
+Designation: Assistant Professor
+Phone: 9052730482
+Email: sdasari4@gitam.edu
+Room No: Cotton - 303
+159.Name: Dr. Sujatha Varadi
+Faculty Id : 502928
+Designation: Assistant Professor
+Phone: 9502084095
+Email: svaradi@gitam.edu
+Room No: 602 - D - 03
+160.Name: Sri Sirasapalli Joshua Johnson
+Faculty Id : 502950
+Designation: Assistant Professor
+Phone: 9573382650
+Email: jsirasap@gitam.edu
+Room No: 602 - D - 10
+161.Name: Sri Devaraplli Ravi Kishore
+Faculty Id : 502963
+Designation: Assistant Professor
+Phone: 9533117209
+Email: rdevarap@gitam.edu
+Room No: 602 - C - 17
+162.Name: Dr. Pujasuman Tripathy
+Faculty Id : 502972
+Designation: Assistant Professor
+Phone: 7894725227
+Email: ptripath@gitam.edu
+Room No: 602 - D - 12

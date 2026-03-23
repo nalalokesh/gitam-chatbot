@@ -1,0 +1,7 @@
+admin : 
+admin1@gitam.edu
+admin123
+
+student user : 
+test12@gitam.in
+test098

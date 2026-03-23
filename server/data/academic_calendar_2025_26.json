@@ -1,0 +1,107 @@
+[
+    {
+        "event": "Commencement of Classwork (Odd Semester)",
+        "date": "2025-07-04",
+        "description": "Start of classes for I Year (UG & PG) - Odd Semester."
+    },
+    {
+        "event": "Anti-Ragging Month",
+        "date": "2025-08-01 to 2025-08-31",
+        "description": "Awareness and prevention activities month."
+    },
+    {
+        "event": "Student Induction Program",
+        "date": "2025-07-17 to 2025-08-02",
+        "description": "Orientation program for new students."
+    },
+    {
+        "event": "Independence Day",
+        "date": "2025-08-15",
+        "description": "Public Holiday."
+    },
+    {
+        "event": "Vinayaka Chaturthi",
+        "date": "2025-08-27",
+        "description": "Public Holiday."
+    },
+    {
+        "event": "Teachers' Day",
+        "date": "2025-09-05",
+        "description": "Celebration of National Teachers' Day."
+    },
+    {
+        "event": "Engineers' Day / GUSAC Carnival",
+        "date": "2025-09-15",
+        "description": "Celebration of National Engineers' Day."
+    },
+    {
+        "event": "Mahatma Gandhi Jayanthi",
+        "date": "2025-10-02",
+        "description": "Public Holiday."
+    },
+    {
+        "event": "Dussehra (Vijayadasami)",
+        "date": "2025-10-02",
+        "description": "Public Holiday (Batukamma/Vijayadasami)."
+    },
+    {
+        "event": "Sessional-I Examinations",
+        "date": "2025-10-06 to 2025-10-14",
+        "description": "First mid-term examinations for Odd Semester."
+    },
+    {
+        "event": "Diwali (Deepavali)",
+        "date": "2025-10-20",
+        "description": "Public Holiday."
+    },
+    {
+        "event": "Sessional-II Examinations",
+        "date": "2025-12-04 to 2025-12-12",
+        "description": "Second mid-term examinations for Odd Semester."
+    },
+    {
+        "event": "Closure of Classwork (Odd Semester)",
+        "date": "2025-12-03",
+        "description": "Last day of instruction for Odd Semester."
+    },
+    {
+        "event": "Commencement of Classwork (Even Semester)",
+        "date": "2025-12-15",
+        "description": "Start of classes for Even Semester."
+    },
+    {
+        "event": "Christmas",
+        "date": "2025-12-25",
+        "description": "Public Holiday."
+    },
+    {
+        "event": "Sankranthi / Pongal",
+        "date": "2026-01-14",
+        "description": "Public Holiday."
+    },
+    {
+        "event": "Republic Day",
+        "date": "2026-01-26",
+        "description": "Public Holiday."
+    },
+    {
+        "event": "Sessional-I Examinations (Even Semester)",
+        "date": "2026-02-16 to 2026-02-24",
+        "description": "First mid-term examinations for Even Semester."
+    },
+    {
+        "event": "Holi",
+        "date": "2026-03-03",
+        "description": "Public Holiday."
+    },
+    {
+        "event": "Sessional-II Examinations (Even Semester)",
+        "date": "2026-04-22 to 2026-04-30",
+        "description": "Second mid-term examinations for Even Semester."
+    },
+    {
+        "event": "Summer Vacation",
+        "date": "2026-05-01 to 2026-06-30",
+        "description": "Summer break for students."
+    }
+]

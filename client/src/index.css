@@ -1,0 +1,115 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    /* Educational theme - Professional blues and teals */
+    --background: 210 25% 98%;
+    --foreground: 210 35% 15%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 210 35% 15%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 210 35% 15%;
+
+    /* GITAM brand colors - Deep blue */
+    --primary: 210 80% 35%;
+    --primary-foreground: 0 0% 100%;
+    --primary-hover: 210 80% 30%;
+
+    /* Accent - Teal for interactive elements */
+    --secondary: 185 70% 45%;
+    --secondary-foreground: 0 0% 100%;
+    --secondary-hover: 185 70% 40%;
+
+    --muted: 210 20% 95%;
+    --muted-foreground: 210 15% 45%;
+
+    --accent: 185 60% 50%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 70% 50%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 210 20% 88%;
+    --input: 210 20% 88%;
+    --ring: 210 80% 35%;
+
+    --radius: 0.75rem;
+
+    /* Status colors */
+    --success: 145 65% 45%;
+    --warning: 40 95% 50%;
+    --info: 210 80% 55%;
+
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(210 80% 35%), hsl(185 70% 45%));
+    --gradient-hero: linear-gradient(135deg, hsl(210 80% 40%) 0%, hsl(185 70% 45%) 100%);
+    
+    /* Shadows */
+    --shadow-sm: 0 1px 2px 0 hsl(210 35% 15% / 0.05);
+    --shadow-md: 0 4px 6px -1px hsl(210 35% 15% / 0.1);
+    --shadow-lg: 0 10px 15px -3px hsl(210 35% 15% / 0.1);
+    --shadow-glow: 0 0 20px hsl(210 80% 35% / 0.3);
+  }
+
+  .dark {
+    --background: 210 40% 8%;
+    --foreground: 210 20% 95%;
+
+    --card: 210 35% 12%;
+    --card-foreground: 210 20% 95%;
+
+    --popover: 210 35% 12%;
+    --popover-foreground: 210 20% 95%;
+
+    --primary: 210 75% 55%;
+    --primary-foreground: 210 40% 8%;
+    --primary-hover: 210 75% 60%;
+
+    --secondary: 185 65% 50%;
+    --secondary-foreground: 210 40% 8%;
+    --secondary-hover: 185 65% 55%;
+
+    --muted: 210 30% 18%;
+    --muted-foreground: 210 20% 70%;
+
+    --accent: 185 60% 50%;
+    --accent-foreground: 210 40% 8%;
+
+    --destructive: 0 65% 50%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 210 30% 20%;
+    --input: 210 30% 20%;
+    --ring: 210 75% 55%;
+
+    --success: 145 60% 50%;
+    --warning: 40 90% 55%;
+    --info: 210 75% 60%;
+
+    --gradient-primary: linear-gradient(135deg, hsl(210 75% 55%), hsl(185 65% 50%));
+    --gradient-hero: linear-gradient(135deg, hsl(210 75% 45%) 0%, hsl(185 65% 50%) 100%);
+    
+    --shadow-sm: 0 1px 2px 0 hsl(0 0% 0% / 0.3);
+    --shadow-md: 0 4px 6px -1px hsl(0 0% 0% / 0.4);
+    --shadow-lg: 0 10px 15px -3px hsl(0 0% 0% / 0.5);
+    --shadow-glow: 0 0 20px hsl(210 75% 55% / 0.4);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
