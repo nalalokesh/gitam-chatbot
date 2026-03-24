@@ -1,9 +1,11 @@
-const Datastore = require('nedb-promises');
-const path = require('path');
+const mongoose = require('mongoose');
 
-const User = Datastore.create({
-    filename: path.join(__dirname, '../data/users.db'),
-    autoload: true
+const UserSchema = new mongoose.Schema({
+    username: { type: String, required: true },
+    email: { type: String, required: true, unique: true },
+    password: { type: String, required: true },
+    role: { type: String, default: 'student' },
+    date: { type: Date, default: Date.now }
 });
 
-module.exports = User;
+module.exports = mongoose.model('user', UserSchema);

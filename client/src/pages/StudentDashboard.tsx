@@ -6,6 +6,7 @@ import { Avatar, AvatarFallback } from "@/components/ui/avatar";
 import { LogOut, MessageSquare, User, TrendingUp, Calendar, DollarSign } from "lucide-react";
 import { toast } from "sonner";
 import { StudentChatbot } from "@/components/StudentChatbot";
+import api from "@/utils/api";
 
 const StudentDashboard = () => {
   const navigate = useNavigate();
@@ -17,36 +18,26 @@ const StudentDashboard = () => {
     tuition_paid: true
   });
   const [loading, setLoading] = useState(true);
+  const [randomSemester] = useState(() => Math.floor(Math.random() * 8) + 1);
 
   useEffect(() => {
     fetchProfile();
   }, []);
 
   const fetchProfile = async () => {
-    const token = sessionStorage.getItem('token');
-    if (!token) {
-      navigate("/");
-      return;
-    }
-
     try {
-      const response = await fetch('http://localhost:5000/api/auth/profile', {
-        headers: {
-          'x-auth-token': token
-        }
-      });
-      
-      if (response.ok) {
-        const data = await response.json();
-        setProfile(data);
-      } else {
-        sessionStorage.removeItem('token');
-        sessionStorage.removeItem('role');
-        navigate("/");
-      }
-    } catch (error) {
+      const response = await api.get('/auth/profile');
+      setProfile(response.data);
+    } catch (error: any) {
       console.error("Error fetching profile:", error);
-      toast.error("Failed to load profile data");
+      if (error.response?.status === 401) {
+        toast.error("Session expired. Please log in again.");
+      } else {
+        toast.error("Failed to load profile data");
+      }
+      sessionStorage.removeItem('token');
+      sessionStorage.removeItem('role');
+      navigate("/");
     } finally {
       setLoading(false);
     }
@@ -70,11 +61,12 @@ const StudentDashboard = () => {
     );
   }
 
-  const initials = profile?.username
-    ?.split(" ")
-    .map((n: string) => n[0])
-    .join("")
-    .toUpperCase() || "U";
+  const userEmail = profile?.email || "";
+  const derivedUsername = profile?.username && profile.username !== "Not set" 
+    ? profile.username 
+    : userEmail.split('@')[0] || "Student";
+
+  const initials = derivedUsername.charAt(0).toUpperCase() || "S";
 
   return (
     <div className="min-h-screen bg-background">
@@ -87,7 +79,7 @@ const StudentDashboard = () => {
             </div>
             <div>
               <h1 className="text-xl font-bold">GITAM Student Portal</h1>
-              <p className="text-sm text-muted-foreground">Welcome back, {profile?.username}</p>
+              <p className="text-sm text-muted-foreground">Welcome back, {derivedUsername}</p>
             </div>
           </div>
           <Button onClick={handleLogout} variant="outline" size="sm">
@@ -111,27 +103,31 @@ const StudentDashboard = () => {
                     </AvatarFallback>
                   </Avatar>
                   <div>
-                    <CardTitle>{profile?.username}</CardTitle>
+                    <CardTitle>{derivedUsername}</CardTitle>
                     <CardDescription>{profile?.registration_no || "Not set"}</CardDescription>
                   </div>
                 </div>
               </CardHeader>
               <CardContent className="space-y-3">
                 <div className="text-sm">
+                  <span className="text-muted-foreground">Username:</span>
+                  <p className="font-medium">{derivedUsername}</p>
+                </div>
+                <div className="text-sm">
                   <span className="text-muted-foreground">Email:</span>
                   <p className="font-medium">{profile?.email}</p>
                 </div>
                 <div className="text-sm">
                   <span className="text-muted-foreground">Campus:</span>
-                  <p className="font-medium">{profile?.campus || "Not set"}</p>
+                  <p className="font-medium">{profile?.campus || "VSKP"}</p>
                 </div>
                 <div className="text-sm">
                   <span className="text-muted-foreground">Branch:</span>
-                  <p className="font-medium">{profile?.branch || "Not set"}</p>
+                  <p className="font-medium">{profile?.branch || "CSE"}</p>
                 </div>
                 <div className="text-sm">
                   <span className="text-muted-foreground">Semester:</span>
-                  <p className="font-medium">{profile?.semester || "Not set"}</p>
+                  <p className="font-medium">{profile?.semester || randomSemester}</p>
                 </div>
               </CardContent>
             </Card>

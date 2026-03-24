@@ -26,7 +26,8 @@ router.post('/register', async (req, res) => {
         const salt = await bcrypt.genSalt(10);
         const hashedPassword = await bcrypt.hash(password, salt);
 
-        user = await User.insert({ username, email, password: hashedPassword, role, date: new Date() });
+        user = new User({ username, email, password: hashedPassword, role });
+        await user.save();
 
         const payload = { user: { id: user._id, role: user.role } };
         jwt.sign(payload, process.env.JWT_SECRET || 'secret', { expiresIn: '1h' }, (err, token) => {
@@ -81,6 +82,9 @@ router.get('/profile', auth, async (req, res) => {
         if (user) delete user.password;
         res.json(user);
     } catch (err) {
+        if (err.name === 'CastError') {
+            return res.status(401).json({ msg: 'Invalid user ID format (likely an old test session). Please log in again.' });
+        }
         console.error(err.message);
         res.status(500).send('Server error');
     }
