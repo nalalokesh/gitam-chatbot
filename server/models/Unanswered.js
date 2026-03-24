@@ -1,9 +1,10 @@
-const Datastore = require('nedb-promises');
-const path = require('path');
+const mongoose = require('mongoose');
 
-const Unanswered = Datastore.create({
-    filename: path.join(__dirname, '../data/unanswered.db'),
-    autoload: true
+const UnansweredSchema = new mongoose.Schema({
+    question: { type: String, required: true },
+    askedBy: { type: String, default: 'Guest' },
+    status: { type: String, default: 'pending' },
+    date: { type: Date, default: Date.now }
 });
 
-module.exports = Unanswered;
+module.exports = mongoose.model('unanswered', UnansweredSchema);

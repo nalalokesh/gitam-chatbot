@@ -38,9 +38,13 @@ router.post('/ask', async (req, res) => {
             res.json({ answer, source });
 
         } catch (nlpError) {
-            console.error('NLP Service Error:', nlpError.message);
+            console.error('NLP Service Connection Error:', nlpError.message);
+            console.error('Tried connecting to:', nlpUrl);
             // Fallback if Python service is down
-            res.status(503).json({ answer: "I am currently experiencing issues. Please try again later." });
+            res.status(503).json({ 
+                answer: "I am having trouble connecting to my AI processor. Please try again in 30 seconds as the service may be waking up.",
+                error: nlpError.message 
+            });
         }
 
     } catch (err) {
