@@ -268,6 +268,18 @@ async def predict(request: QueryRequest):
                 }
                 
         except Exception as e:
+            error_str = str(e).lower()
+            print(f"Gemini API Error: {e}")
+            
+            # Specifically handle Rate Limiting (429) from Google
+            if "429" in error_str or "exhausted" in error_str:
+                return {
+                    "answer": "I'm receiving a lot of questions right now! Please wait 15-30 seconds and ask again. I'll be ready to help you then.",
+                    "confidence": 0.0,
+                    "source": "rate_limit_handled"
+                }
+            
+            # Fallback for other Gemini errors
             print(f"Gemini generation failed: {e}")
 
     # 4. Unknown / Unanswered
