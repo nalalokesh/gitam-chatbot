@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-    baseURL: 'https://gitam-chatbot-1.onrender.com/api',
+    baseURL: 'https://gitam-chatbot-2.onrender.com/api',
     headers: {
         'Content-Type': 'application/json'
     }
