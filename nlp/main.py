@@ -236,74 +236,39 @@ async def predict(request: QueryRequest):
     if found_links:
         links_text = "\n\n**Helpful Links:**\n" + "\n".join(list(found_links))
 
-    # 2. Generate Answer with Gemini (RAG)
-    if model:
-        try:
-            if context:
-                # RAG Prompt
-                prompt = f"""
-                You are a helpful AI assistant for GITAM University.
-                
-                Here is some verified internal information found in our database that might be relevant:
-                ---
-                {context}
-                ---
-                
-                User Question: {query}
-                
-                Instructions:
-                1. Use the internal information above to answer the question if applicable. 
-                2. Combine multiple pieces of info if needed to give a complete answer.
-                3. If the internal info is not relevant to the question, ignore it and answer from your general knowledge.
-                4. Be polite, concise, and easy to understand.
-                """
-                source_label = "gemini_rag"
-            else:
-                # General Prompt
-                prompt = f"""
-                You are a helpful AI assistant for GITAM University.
-                User Question: {query}
-                
-                Instructions:
-                1. Answer politely and accurately from your general knowledge about GITAM University.
-                2. If the question is about specific internal university matters (like specific grades, private schedules) that you don't know, politely say you don't have access to that information.
-                3. If the user asks about admissions, fees, or general info, provide a detailed helpful answer.
-                """
-                source_label = "gemini_general"
-
-            response = model.generate_content(prompt)
-            clean_answer = response.text.strip()
-            
-            # Append source if derived from context
-            if context:
-                clean_answer += "\n\nSuccess Source: GITAM Internal Knowledge Base"
-            
-            # Append Links
-            clean_answer += links_text
-
-            return {
-                "answer": clean_answer,
-                "confidence": 0.9 if context else 0.7,
-                "source": source_label
-            }
-            
-        except Exception as e:
-            print(f"Gemini extraction failed: {e}")
-            # Fallback to Raw Local Data if Gemini fails
-            if best_match_raw and best_score > 0.4:
-                 return {
-                    "answer": f"{best_match_raw}\n\nSuccess Source: GITAM Internal Database" + links_text,
-                    "confidence": float(best_score),
-                    "source": "dataset_fallback"
-                 }
-    
-    # 3. Fallback if No Model or Model Failed & No Local Match
-    if best_match_raw and best_score > 0.5:
+    # 2. Return Local Database Match First
+    if best_match_raw and best_score > 0.4:
          return {
             "answer": f"{best_match_raw}\n\nSuccess Source: GITAM Internal Database" + links_text,
             "confidence": float(best_score),
             "source": "dataset"
          }
+
+    # 3. Fallback to Gemini if no local match
+    if model:
+        try:
+            prompt = f"""
+            You are a helpful AI assistant for GITAM University.
+            User Question: {query}
+            
+            Instructions:
+            1. Answer politely and accurately from your general knowledge about GITAM University.
+            2. If the user asks about general public university details, answer them clearly.
+            3. If the question is about highly specific or internal university matters that you aren't sure of, or if it is a completely random question not related to academics/life, reply exactly with: "UNKNOWN_QUERY". Do not attempt to guess or hallucinate.
+            """
+            
+            response = model.generate_content(prompt)
+            clean_answer = response.text.strip()
+            
+            if "UNKNOWN_QUERY" not in clean_answer:
+                return {
+                    "answer": clean_answer + "\n\nSuccess Source: Gemini AI" + links_text,
+                    "confidence": 0.8,
+                    "source": "gemini"
+                }
+                
+        except Exception as e:
+            print(f"Gemini generation failed: {e}")
 
     # 4. Unknown / Unanswered
     # If it is a Guest and we don't have info, we can suggest checking the website.

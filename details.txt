@@ -5,3 +5,7 @@ admin123
 student user : 
 test12@gitam.in
 test098
+
+
+nlp deploy url : https://gitam-chatbot.onrender.com
+server deploy url : https://gitam-chatbot-1.onrender.com
