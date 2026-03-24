@@ -9,7 +9,7 @@ router.post('/ask', async (req, res) => {
 
     try {
         // Call Python NLP Service
-        const nlpUrl = process.env.NLP_SERVICE_URL || 'http://localhost:8000';
+        const nlpUrl = process.env.NLP_SERVICE_URL || 'https://gitam-chatbot.onrender.com';
         console.log(`Sending query to ${nlpUrl}/predict`);
 
         try {
