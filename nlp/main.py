@@ -60,12 +60,6 @@ def load_dataset():
                 with open(FACULTY_DB_PATH, "r", encoding="utf-8") as f:
                     content = f.read()
                 
-                # Split by regex looking for "1. Dr.", "2. Dr." etc.
-                # using lookahead to keep the pattern in the following split result might be tricky with newlines.
-                # Instead, we'll manually split or use re.split with capturing group and recombine, 
-                # but since the structure is consistent, we can split by "\n\n" (double newline) or 
-                # just assume lines starting with regex are headers.
-                
                 # Simpler approach: split by `\n` and group lines.
                 lines = content.splitlines()
                 current_block = []

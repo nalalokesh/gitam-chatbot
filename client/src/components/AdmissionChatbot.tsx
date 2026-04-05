@@ -50,11 +50,12 @@ export const AdmissionChatbot = () => {
     } catch (error: any) {
       console.error("Chat error:", error);
       toast.error("Failed to get response");
+      const errorMessage = error.response?.data?.answer || "I'm having trouble connecting. Please try again.";
       setMessages((prev) => [
         ...prev,
         {
           role: "assistant",
-          content: "I'm having trouble connecting. Please try again.",
+          content: errorMessage,
         },
       ]);
     } finally {

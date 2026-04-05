@@ -21,7 +21,6 @@ router.post('/ask', async (req, res) => {
             const { answer, confidence, source } = response.data;
 
             // If confidence is low and source wasn't helpful, log to Unanswered
-            // Assuming Python returns source='unknown' or confidence < threshold
             if (source === 'unknown' || (confidence < 0.5 && source !== 'gemini')) {
                 try {
                     await Unanswered.insert({
@@ -40,9 +39,18 @@ router.post('/ask', async (req, res) => {
         } catch (nlpError) {
             console.error('NLP Service Connection Error:', nlpError.message);
             console.error('Tried connecting to:', nlpUrl);
+
+            // Special handling for rate limiting (429)
+            if (nlpError.response && nlpError.response.status === 429) {
+                 return res.status(200).json({ 
+                    answer: "I'm receiving a lot of questions right now! Please wait a moment and try again. Alternatively, check the official GITAM website for immediate info.",
+                    source: "rate_limit"
+                });
+            }
+
             // Fallback if Python service is down
             res.status(503).json({ 
-                answer: "I am having trouble connecting to my AI processor. Please try again in 30 seconds as the service may be waking up.",
+                answer: "I am having trouble connecting to my AI processor. Please try again in a few seconds as the service may be waking up.",
                 error: nlpError.message 
             });
         }

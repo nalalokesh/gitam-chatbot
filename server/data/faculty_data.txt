@@ -970,3 +970,9 @@ Designation: Assistant Professor
 Phone: 7894725227
 Email: ptripath@gitam.edu
 Room No: 602 - D - 12
+163.Name: Dr. Smith
+Faculty Id : 66a946c4
+Designation: Professor
+Phone: 9876543210
+Email: smith@gitam.edu
+Room No: A-12

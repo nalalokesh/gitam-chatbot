@@ -1,10 +1,9 @@
-const mongoose = require('mongoose');
+const Datastore = require('nedb-promises');
+const path = require('path');
 
-const QuerySchema = new mongoose.Schema({
-    question: { type: String, required: true },
-    answer: { type: String, required: true },
-    askedBy: { type: String, default: 'Guest' },
-    date: { type: Date, default: Date.now }
+const Query = Datastore.create({
+    filename: path.join(__dirname, '../data/queries.db'),
+    autoload: true
 });
 
-module.exports = mongoose.model('query', QuerySchema);
+module.exports = Query;
